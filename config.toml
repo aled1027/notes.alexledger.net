@@ -1,4 +1,4 @@
-baseurl = "https://blog.alexledger.net/"
+baseurl = "https://notes.alexledger.net/"
 title = "Alex's Notes"
 theme = "ghostwriter"
 paginate = 50
