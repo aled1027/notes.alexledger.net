@@ -17,7 +17,7 @@ The flattener that I made can be found here: https://flattener.netlify.app/.
 
 And here's the index.html that drives everything:
 
-```
+```html
 <!doctype html>
 <html>
 

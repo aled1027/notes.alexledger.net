@@ -24,7 +24,7 @@ In your fly.toml file, make sure that the internal port matches what the Django 
 
 Most of the time, django apps use `8000`, so you'd have the following in your app.toml file:
 
-```
+```toml
 [[services]]
   http_checks = []
   internal_port = 8000
@@ -127,7 +127,7 @@ CMD ["poetry", "run", "python", "manage.py", "runserver"]
 
 ### Reference 2: Sample asgi.py
 
-```
+```python
 """
 It exposes the ASGI callable as a module-level variable named ``application``.
 

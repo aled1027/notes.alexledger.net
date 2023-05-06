@@ -9,7 +9,7 @@ title: Flattening JSON
 
 Here's a quick script for quickly flattening json
 
-```
+```python
 import pandas as pd
 
 data = [
