@@ -1,4 +1,4 @@
-baseurl = "https://notes-alexledger-net.netlify.app/"
+baseurl = "https://blog.alexledger.net/"
 title = "Alex's Notes"
 theme = "ghostwriter"
 paginate = 50
