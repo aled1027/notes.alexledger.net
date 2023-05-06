@@ -15,7 +15,7 @@ Today I learned how to customize a few pieces of the Django Admin UI. Namely: ch
 
 Suppose we have the following `Neighborhood` and `Person` models.
 
-```
+```python
 # models.py
 
 from django.db import models
@@ -35,7 +35,7 @@ class Person(models.Model):
 
 Then we can set up a Person Admin where we show all the fields and can search on name and neighborhood location.
 
-```
+```python
 # admin.py
 
 from django.contrib import admin

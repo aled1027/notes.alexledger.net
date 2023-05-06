@@ -12,6 +12,10 @@ paginate = 50
     opengraph = true
     dateFormat = "Mon, Jan 2, 2006"
 
+[Author]
+  name = "Alex Ledger"
+  profile = "/page/about"
+
 [Permalinks]
   post = "/:year/:month/:day/:filename/"
 
