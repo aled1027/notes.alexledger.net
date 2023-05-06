@@ -1,4 +1,4 @@
-baseurl = "https://resonant-tapioca-fe272a.netlify.app/"
+baseurl = "https://notes-alexledger-net.netlify.app/"
 title = "Alex's Notes"
 theme = "ghostwriter"
 paginate = 50
