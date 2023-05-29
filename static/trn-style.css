@@ -1,0 +1,47 @@
+:root {
+    --recipe-color: #7d44b2;
+  }
+
+.recipe table {
+    /* border: 2px solid #40A040; */
+    border: 2px solid var(--recipe-color);
+    font: 9pt/120% Trebuchet MS, Arial, sanserif;
+    border-spacing: 0px;
+    empty-cells: show;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.recipe table th {
+    border: 1px solid var(--recipe-color);
+    border-bottom: 2px solid var(--recipe-color);
+}
+
+.recipe table td {
+    border: 1px solid var(--recipe-color);
+    border-left: 0;
+    border-top: 0;
+    padding: 2px 4px;
+}
+
+.recipe table td.righthide {
+    border-right: 0;
+    border-bottom: 1px solid var(--recipe-color);
+}
+
+.recipe table td.vertical {
+    text-align: center;
+    layout-flow: vertical-ideographic;
+    vertical-align: middle;
+}
+
+.recipe table td.recipe-title {
+    font: 12pt/140% Trebuchet MS, Arial, sanserif;
+    text-align: center;
+    layout-flow: vertical-ideographic;
+    vertical-align: middle;
+}
+
+.recipe table td.recipe-center {
+    text-align: center;
+}
