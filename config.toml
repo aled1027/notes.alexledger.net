@@ -4,13 +4,14 @@ theme = "ghostwriter"
 paginate = 50
 
 [Params]
-    mainSections = ["post"]
-    intro = true
-    headline = "Alex's Notes and Blog"
-    description = "A collection of blog post and notes"
-    github = "https://github.com/aled1027"
-    opengraph = true
-    dateFormat = "Mon, Jan 2, 2006"
+  mainSections = ["post"]
+  intro = true
+  headline = "Alex's Notes and Blog"
+  description = "A collection of blog post and notes"
+  github = "https://github.com/aled1027"
+  opengraph = true
+  dateFormat = "Mon, Jan 2, 2006"
+  params = true
 
 [Author]
   name = "Alex Ledger"
