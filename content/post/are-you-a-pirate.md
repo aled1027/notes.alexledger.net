@@ -9,7 +9,7 @@ This post rereads Mike Arrington's 2010 article [Are You a Pirate?](https://tech
 
 I've read this post before and had the pleasure of revisiting it when a friend sent it over. 
 
-I've been thinking more about similar ideas: deviancy, variability, and risks, particularly I think of as "generally perceived risks", that is actions that are perceived as risky by the general population.
+I've been thinking more about similar ideas: deviancy, variability, and risks, especially actions that are perceived as risky by the general population but are perhaps not that risky at all - there's an inevitability, a necessity to them.
 
 ---
 
