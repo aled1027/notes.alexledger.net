@@ -11,7 +11,7 @@ Before getting to Kombucha I want to describe my favorite recipe design: tabular
 
 ![Tabular Recipe Notation of Pancakes](/trn_pancakes.png#center)
 
-You can imagine that there's a directed acyclic graph underlying the Recipe, and that HTML table is derived from it. At some point I'd love to write a converter from YAML directions, or something of the like, into a tabular recipe notation HTML table. I have a basic version that works on very simple recipes, but it doesn't work on anything complex.
+You can imagine that there's a directed acyclic graph underlying the recipe, and that HTML table is derived from it. At some point I'd love to write a converter from YAML directions, or something of the like, into a tabular recipe notation HTML table. I have a basic version that works on very simple recipes, but it doesn't work on anything complex.
 
 ## Kombucha
 
