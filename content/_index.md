@@ -6,7 +6,7 @@ description = "About Alex Ledger"
 
 I build small projects and big projects, work on big problems and small problems, and love experimenting with old and new technologies.
 
-I’m currently CTO at [Playground Labs](https://playgroundlabs.io), a group of folks creating community-first projects building and supporting games.
+I’m currently CTO at [Playground Labs](https://playgroundlabs.io), where we're building community-first projects around games and gaming technologies.
 
 You can find me at:
 
