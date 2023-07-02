@@ -1,24 +1,30 @@
 {{- define "main" -}}
 <div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">{{ .Title }}</h1>
-    </header>
-    <main class="page-content" aria-label="Content">
-        {{ range .Pages.GroupByDate "2006" }}
-        {{ $year := .Key }}
-        <h2 class="post-year">{{ $year }}</h2>
+  <header class="header">
+    <h1 class="header-title center">{{ .Title }}</h1>
+  </header>
+  <main class="page-content" aria-label="Content">
 
-        {{/* create a list of posts for each month, with month as heading */}}
 
-        {{ range .Pages }}
+    <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
 
-        <!-- {{ partial "postCard" . }} -->
-        tsup!
+      <table>
+      {{ range .Data.Terms }}
 
-        {{ end }} {{/* end range .Pages */}}
-
-        {{ end }} {{/* end range .Pages.GroupByDate "2006" */}}
-
-    </main>
+        <tr>
+          <td>
+        <a class="text-xl font-medium decoration-primary-500 hover:underline hover:underline-offset-2"
+          href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+</td>
+<td>
+        <span class="text-base text-neutral-400">
+          {{ .Count }}
+        </span>
+</td>
+      </tr>
+      {{ end }}
+      </table>
+    </section>
+  </main>
 </div>
 {{- end -}}
