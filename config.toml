@@ -1,6 +1,6 @@
 baseurl = "https://notes.alexledger.net/"
 title = "Alex's Notes"
-theme = "ghostwriter"
+theme = "hugo-blog-awesome"
 paginate = 50
 
 [Params]
