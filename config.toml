@@ -1,18 +1,30 @@
 baseurl = "https://notes.alexledger.net/"
 title = "Alex's Notes"
 theme = "hugo-blog-awesome"
-paginate = 50
+defaultContentLanguage = "en"
+enableRobotsTXT = true
 
-[Params]
-  mainSections = ["post"]
+
+[params]
+  sitename = "Alex Ledger"
+  defaultColor = "auto"
+  toc = true
+  mainSections = ["posts"]
   intro = true
   headline = "Alex's Notes and Blog"
   description = "A collection of blog posts and notes"
-  github = "https://github.com/aled1027"
   opengraph = true
   dateFormat = "Mon, Jan 2, 2006"
   params = true
   rss = true
+
+[params.author]
+  # avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "Alex Ledger"
+  name = "Alex Ledger"
+  # description = ""
+  description = "I build small projects and big projects, work on big problems and small problems, and love experimenting with old and new technologies."
 
 [Author]
   name = "Alex Ledger"
@@ -26,18 +38,28 @@ paginate = 50
 
 [[menu.main]]
 name = "Blog"
-url = "/"
-weight = 1
+url = "/posts"
+weight = 10
 
 [[menu.main]]
 name = "Tags"
 url = "/tags/"
-weight = 2
+weight = 20
 
 [[menu.main]]
 name = "About"
-url = "/page/about/"
-weight = 3
+pageRef = "About"
+url = "/about/"
+weight = 30
 
-[markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files
+[markup]
+  [markup.highlight]
+    # set markup.highlight.noClasses=false to enable code highlight
+    noClasses = false
+  [markup.goldmark.renderer]
+    # Allow HTML in md files
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2 # ToC starts from H2
+		endLevel = 4 # ToC ends at H4
+		ordered = false # generates <ul> instead of <ol>

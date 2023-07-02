@@ -3,6 +3,7 @@ title: "Are You a Pirate?"
 date: 2023-06-10T14:23:31-07:00
 draft: false
 tags: [article-review, risk]
+toc: false
 ---
 
 This post rereads Mike Arrington's 2010 article [Are You a Pirate?](https://techcrunch.com/2010/10/31/are-you-a-pirate/).

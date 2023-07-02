@@ -3,6 +3,7 @@ title: "Kombucha and Tabular Recipe Notation"
 date: 2023-05-29T15:49:10-07:00
 draft: false
 tags: [kombucha, fermentation, cooking, trn, design]
+toc: true
 ---
 
 ## Tabular Recipe Notation
