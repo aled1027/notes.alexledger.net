@@ -1,5 +1,5 @@
-baseurl = "https://notes.alexledger.net/"
-title = "Alex's Notes"
+baseurl = "https://www.alexledger.net/"
+title = "Alex's Notes and Blog"
 theme = "hugo-blog-awesome"
 LanguageCode = "en"
 defaultContentLanguage = "en"
