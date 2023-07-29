@@ -2,26 +2,47 @@
 <html lang="{{ .Site.LanguageCode }}">
 {{- partial "head.html" . -}}
 
-<body data-theme="{{ .Site.Params.defaultColor | default "auto" }}" class="notransition">
+<body data-theme="{{ .Site.Params.defaultColor | default " auto" }}" class="notransition">
     {{- partial "scriptsBodyStart.html" . -}}
     {{- partial "header.html" . -}}
     <div class="wrapper">
         {{ partial "bio" . }}
         <main aria-label="Content">
-            <h2 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-            {{/* Show last 5 posts in reverse date order */}}
-            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-            {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 5 $posts }}
-            {{ partial "postCard" . }}
-            {{ end }}
-            {{ if gt (len $posts) 5 }}
-            <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">See all posts</a>
+            <div class="index-section">
+                <h2 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h2>
+                {{/* Show last 5 posts in reverse date order */}}
+                {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+                {{ $posts := $pagesToShow.ByDate.Reverse }}
+                {{ range first 5 $posts }}
+                {{ partial "postCard" . }}
                 {{ end }}
-            </p>
-            {{ end }}
+                {{ if gt (len $posts) 5 }}
+                <p>
+                    {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1
+                    (.Site.Params.mainSections))) }}
+                    <a href="{{ $firstSection.Permalink }}">See all posts</a>
+                    {{ end }}
+                </p>
+                {{ end }}
+            </div>
+            <div class="index-section">
+                <h2 class="posts-item-note" aria-label="Recent Guides">Guides</h2>
+                {{/* Show last 5 guides in reverse date order */}}
+                {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.guideSections }}
+                {{ $guides := $pagesToShow.ByDate.Reverse }}
+                {{ range first 5 $guides }}
+                {{ partial "postCard" . }}
+                {{ end }}
+                {{ if gt (len $guides) 5 }}
+                <p>
+                <p>here: {{ .Site.Params.guideSections }} </p>
+                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.guideSections)))
+                }}
+                <a href="{{ $firstSection.Permalink }}">See all guides</a>
+                {{ end }}
+                </p>
+                {{ end }}
+            </div>
         </main>
     </div>
     {{- partial "footer.html" . -}}

@@ -11,6 +11,7 @@ enableRobotsTXT = true
   defaultColor = "auto"
   toc = true
   mainSections = ["posts"]
+  guideSections = ["guides"]
   intro = true
   headline = "Alex's Notes and Blog"
   description = "A collection of blog posts and notes"
@@ -38,16 +39,22 @@ enableRobotsTXT = true
   tag = "tags"
 
 [[menu.main]]
-name = "Blog"
-pageRef = "Blog"
-url = "/posts"
+name = "Posts"
+pageRef = "Posts"
+url = "/posts/"
 weight = 10
+
+[[menu.main]]
+name = "Guides"
+pageRef = "Guides"
+url = "/guides/"
+weight = 20
 
 [[menu.main]]
 name = "Tags"
 pageRef = "Tags"
 url = "/tags/"
-weight = 20
+weight = 30
 
 [markup]
   [markup.highlight]

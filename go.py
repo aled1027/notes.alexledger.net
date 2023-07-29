@@ -17,7 +17,7 @@ def main():
     # Clean the title to be a good filename
     post_local_filename = re.sub(r"[^a-zA-Z0-9 ]+", "", post_name)
     post_local_filename = post_local_filename.lower().replace(" ", "-")
-    post_filename = "post/" + post_local_filename + ".md"
+    post_filename = "posts/" + post_local_filename + ".md"
 
     subprocess.run(["hugo", "new", post_filename])
 
