@@ -1,49 +1,34 @@
 ---
 title: "Barter: a Trading System"
-date: 2023-06-16T08:21:44-07:00
-draft: true
-tags: [python, fly.io, django, crypto]
+date: 2023-07-29
+draft: false
+tags: [python, django, crypto]
 ---
 
-I just shipped an alpha version of Barter, a trading system for setting up generic, automated (but not real-time), trades.
+I published a pre-alpha version of Barter, a trading system for setting up generic, automated (but not real-time), trades Right now, the system is built for dydx. The code is a work in progress - presently, only opening positions is supported and closing them is not (not a great way to profit :) ).
+
+Link to repo: https://github.com/aled1027/barter
 
 Barter works in three steps:
 
 1. Collect data
-2. Run through trading logic
-3. If trade logic passes, execute the trade
-4. Run through existing positions and execute close logic
-5. If a position should be closed, close it.
-
-The models supporting the five steps are:
-
-- Instrument: A financial asset which can be purchased and sold [^1]
-- InstrumentOHLC: The open, high, low, and close values at a particular datetime for an instrument.
-- Position: The amount of an instrument held, including metadata
-- History (likely) Some kind of history
-
-
-[^1]: See https://www.investopedia.com/terms/i/instrument.asp
+2. Run through trade logic. If a position should be opened, open it.
+3. Run through existing positions. If a position should be closed, close it. (Not yet implemented)
+4. If a position should be closed, close it.
 
 ## Collect Data
 
-Each day, a github action calls /api/sync_data to sync data from Coingecko ([docs](https://www.coingecko.com/en/api/documentation)). For each registered instrument that's on Coingecko, the sync services creates any new OHLC records based on the Coingecko data. 
+Each day, data is synced from dydx for each instrument that's registered in the database.
 
 In the future, any number of data sources can be supported, and in the current vision, they'd likely be supported by adding additional models for organizing the data.
 
 ## Run through trading logic and execute the trade
 
-After the sync finishes, the github action calls /api/sync_new_trades which loops over the instruments and trade logic, identifying which logic passes.
+After the sync finishes, a cron job executes a process that loops over the instruments and trade logic, identifying which logic passes.
 
 The trade logic queries the database as needed to pull in whatever data it needs.
 
 If a trade should be executed, it's also executed in this step.
-
-## Run through existing positions and execute close logic
-
-The github action then calls /api/sync_close_positions which loops over the positions and close logic, identifying which logic passes.
-
-If a position should be closed, it's also closed in this step.
 
 ## An Interesting Feature in the Future: A Simulator
 
