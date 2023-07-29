@@ -67,4 +67,9 @@ Here's a direct link to the electric vehicles [section](https://oregoinelectric.
 - [More Related Subreddits](https://www.reddit.com/r/electricvehicles/wiki/index/relatedsubs/)
 - [Greener Cars](https://greenercars.org/)
 - [fueleconomy.gov](https://www.fueleconomy.gov/)
+- [Ezra Klein Podcast "The Best Single Guide to Decarbonization I've Heard"](https://www.nytimes.com/2022/09/20/opinion/ezra-klein-podcast-jesse-jenkins.html)
+    - A great episode on the Inflation Reduction Act and what's happening in the United States around decarbonization
+- [Heatmap News](https://heatmap.news/)
+    - "Heatmap is a new media company focused on the biggest story in the world: the great climate and energy transition." (from their about [page](https://heatmap.news/about-us))
+    - The interviewee on the Ezra Klein podcast, Jesse Jenkins, works at Heatmap News
 
