@@ -50,11 +50,16 @@ Amos landed on a site with:
 
 I did feel like the site was over-engineered for what it's doing. But each decision was justified and thought-through, which can always be appreciated, especially when it's out there for the public to consume and learn from.
 
+## Linus Lee's [Thesephist](https://thesephist.com/)
+
+Written in a custom programming language with tons of tools. All of the code is available on github. Really fun to peruse.
+
 ## Patterns Across the Sites
 
 - All three sites above used Cloudflare for their CDN, even if the site was already behind some other scaling tool like Cloudfront.
-- They all write in markdown
-- They all use a templating language; Liquid and Jinja are used.
+- Many write in markdown
+- Many use a templating language; Liquid and Jinja are used.
+- A lot of them break the rules, doing their own thing for fun and experimentation - the web affords a lot of flexibility.
 
 ## Static Site Generators
 
@@ -78,3 +83,4 @@ And here are some more optimized for Documentation:
 - [mdBook](https://rust-lang.github.io/mdBook/) (Rust)
 
 The jamstack site has hundreds listed [here](https://jamstack.org/generators/).
+
