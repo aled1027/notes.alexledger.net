@@ -72,4 +72,5 @@ Here's a direct link to the electric vehicles [section](https://oregoinelectric.
 - [Heatmap News](https://heatmap.news/)
     - "Heatmap is a new media company focused on the biggest story in the world: the great climate and energy transition." (from their about [page](https://heatmap.news/about-us))
     - The interviewee on the Ezra Klein podcast, Jesse Jenkins, works at Heatmap News
+- [David MacKay's](https://en.wikipedia.org/wiki/David_J._C._MacKay) book Without Hot Air available online for free [here](https://www.withouthotair.com/)
 
