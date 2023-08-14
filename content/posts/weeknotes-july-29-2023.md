@@ -17,6 +17,7 @@ tags: [weeknotes, climate-change, electric-vehicles, sustainability, frontend]
 
 - [The State of Web3 Game Developer Tooling](https://www.bitkraft.vc/the-state-of-web3-game-developer-tooling/)
 - [Heatmap News](https://heatmap.news/)
+- [Farewell Jamstack](https://www.spicyweb.dev/farewell-jamstack/)
 - [Thinking about tech debt](https://apenwarr.ca/log/20230605 )
 - [This SVG tutorial](https://www.nan.fyi/svg-paths)
 - Reading about how [koding kitty](https://www.kodingkitty.com/) [builds](https://www.kodingkitty.com/blog/how-to-build-a-website/)
