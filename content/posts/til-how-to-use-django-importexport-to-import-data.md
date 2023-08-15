@@ -13,6 +13,8 @@ Set up was easy since I already had export set up. I simply added `import_export
 I've been using a dynamic model to register everything. Now that model looks like this:
 
 ```python
+from import_export.admin import ImportExportMixin
+
 def register_admin_for_models(
     model: Type[Model],
     in_list_display: list[str] | None = None,
@@ -42,7 +44,7 @@ def register_admin_for_models(
     the_list_display = tuple(in_list_display or default_list_display)
     the_list_filter = tuple(in_list_filter or [])
 
-    class DynamicAdmin(ImportMixin, ExportMixin, admin.ModelAdmin):
+    class DynamicAdmin(ImportExportMixin, admin.ModelAdmin):
         list_display = the_list_display
         list_filter = the_list_filter
         readonly_fields = the_readonly_fields
