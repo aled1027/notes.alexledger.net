@@ -1,5 +1,5 @@
 ---
-title: "TIl How to Use Django-Import-Export to Import Data"
+title: "TIL How to Use Django-Import-Export to Import Data"
 date: 2023-08-14T16:02:18-07:00
 draft: false
 tags: [til, python, django]
