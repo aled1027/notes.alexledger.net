@@ -50,11 +50,19 @@ pageRef = "Guides"
 url = "/guides/"
 weight = 20
 
+
+[[menu.main]]
+name = "Projects"
+pageRef = "Projects"
+url = "/projects/"
+weight = 30
+
+
 [[menu.main]]
 name = "Tags"
 pageRef = "Tags"
 url = "/tags/"
-weight = 30
+weight = 40
 
 [markup]
   [markup.highlight]
