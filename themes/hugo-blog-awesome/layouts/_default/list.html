@@ -4,6 +4,7 @@
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
     <main class="page-content" aria-label="Content">
+        {{- partial "toc.html" . -}}
         {{ .Content }}
         {{ range .Pages.GroupByDate "2006" }}
         {{ $year := .Key }}

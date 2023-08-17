@@ -1,0 +1,8 @@
+<!-- The per-post toc setting overrides the site setting -->
+<!-- Check if the toc length is greater than 32 - 32 is the length of an empty toc -->
+{{- if and (or .Params.toc .Site.Params.toc) (gt (len .TableOfContents) 32) }}
+<details class="toc">
+    <summary><b>Table of Contents</b></summary>
+    {{ .TableOfContents }}
+</details>
+{{- end -}}

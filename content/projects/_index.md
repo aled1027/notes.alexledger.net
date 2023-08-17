@@ -1,15 +1,31 @@
 ---
 title: "Projects"
-date: 2021-01-01 # You can set this to the creation date of the page
+date: 2023-08-15
 ---
 
 Welcome to the Projects page, where I've gathered some things I've been working on over the years. From climate change to web apps and more, here you'll find a sampling of my creative pursuits and technical experiments.
 
-## [The Hub](https://github.com/aled1027/the-hub)
+## The Hub
 
-Given a link to a JSON file of links and labels, the site will populate an easy to navigate and use hub of the links. An alternative, shareable page of bookmarks inspired by LinkTree.
+Given a link to a JSON file of links and labels, [The Hub](https://github.com/aled1027/the-hub) will populate an easy to navigate and use hub of the links. An alternative, shareable page of bookmarks inspired by LinkTree. ([code](https://github.com/aled1027/the-hub))
 
 
-## [Barter](https://github.com/aled1027/barter)
+## Barter
 
-A trading system for setting up generic, automated (but not real-time), trades. Currently, this system is built for dydx.
+[Barter](https://github.com/aled1027/barter) is a trading system for setting up generic, automated (but not real-time), trades. Currently, this system is built for dydx. ([code](https://github.com/aled1027/barter))
+
+## Flattener
+
+[Flattener](https://flattener.netlify.app/) is a tool for taking a nested JSON file as input and returning a CSV file with the data flattened. This was written as a project to play with [Pyodide](https://pyodide.org/en/stable/), a port of CPython to WebAssembly/Emscripten. such that the code for flattening the JSON imports pandas and uses `pd.json_normalize`. ([code](https://github.com/aled1027/flattener),[ hosted page](https://flattener.netlify.app/))
+
+## This Site
+
+This site, https://alexledger.net, is built with Hugo with some custom theming on top of [Hugo blog awesome](https://github.com/hugo-sid/hugo-blog-awesome). ([code](https://github.com/aled1027/notes.alexledger.net), [site](https://alexledger.net))
+
+## Cat's Site
+
+https://catnesh.net, the site of my partner, Cat, is a Hugo site that uses the CSS from [pandoc](https://pandoc.org/) as basis of the theme. The site prioritizes accessibility as well as showing off Cat's work. ([site](https://catnesh.net))
+
+## The Looming Threat of China: An Analysis of Chinese Influence on Bitcoin
+
+A paper published October 5, 2018 on arXiv, presented at CESC 2018, in in collaboration with [Ben Kaiser](https://benkaiser.org/) and [Mireya Jurado](https://users.cs.fiu.edu/~mjura011/). ([paper](https://arxiv.org/abs/1810.02466), [slides](https://docs.google.com/presentation/d/e/2PACX-1vTP_JozfU0-GTYkkF2_XXh7rNGTuvqW8PKi0MxIiAfefHJmKy0-v-ag-j3yJFK7LFoBI3bshCx1Vm3U/pub?start=false&loop=false&delayms=3000&slide=id.g43a3dcadcd_0_0), [video](https://www.youtube.com/watch?v=ylhCVZPhdNw), [code](https://github.com/aled1027/looming_threat_of_china_analysis))
