@@ -39,18 +39,16 @@ A small Rust library for Pedersen commitments over elliptic curves. ([code](http
 
 This project explored chaos and emergent properties in Schelling's Bounded Neighborhood model. This was work in 2015 for the Philosophy of Computation class at Reed, taught by Mark Bedau. ([code](https://github.com/aled1027/chaos_in_schellings_model))
 
-## Academic Research
-
-### The Looming Threat of China: An Analysis of Chinese Influence on Bitcoin
+## The Looming Threat of China: An Analysis of Chinese Influence on Bitcoin
 
 A paper published October 5, 2018 on arXiv, presented at CESC 2018, in in collaboration with [Ben Kaiser](https://benkaiser.org/) and [Mireya Jurado](https://users.cs.fiu.edu/~mjura011/). ([paper](https://arxiv.org/abs/1810.02466), [slides](https://docs.google.com/presentation/d/e/2PACX-1vTP_JozfU0-GTYkkF2_XXh7rNGTuvqW8PKi0MxIiAfefHJmKy0-v-ag-j3yJFK7LFoBI3bshCx1Vm3U/pub?start=false&loop=false&delayms=3000&slide=id.g43a3dcadcd_0_0), [video](https://www.youtube.com/watch?v=ylhCVZPhdNw), [code](https://github.com/aled1027/looming_threat_of_china_analysis))
 
-### Externally Verifiable Oblivious RAM
+## Externally Verifiable Oblivious RAM
 
 "Externally Verifiable Oblivious RAM" is a published at Privacy Enhancing Technologies Symposium (PETS) in July 2017. This was advised by [Adam Groce](https://people.reed.edu/~agroce/index.html) and in collaboration with Josh Gancher. ([paper](https://eprint.iacr.org/2017/008.pdf))
 
 
-### CompGC: Efficient Offline/Online Semi-honest Two-party Computation,
+## CompGC: Efficient Offline/Online Semi-honest Two-party Computation,
 
 "CompGC: Efficient Offline/Online Semi-honest Two-party Computation," is a paper written in 2017, as part of my senior thesis at Reed, on novel technique for efficient two-party-computation.  This was a collaboration with [Adam Groce](https://people.reed.edu/~agroce/index.html) (my thesis advisor), Arkady Yerukhimovich and Alex Malozemoff. ([paper](https://eprint.iacr.org/2016/458.pdf), [code](https://github.com/aled1027/CompGC))
 
