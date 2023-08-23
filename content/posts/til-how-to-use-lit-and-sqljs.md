@@ -144,9 +144,7 @@ if __name__ == "__main__":
 
 In `dist/` I have a copy of the wasm sql-js file from a CDN.
 
-The basic code for this to work is the following[^1]. Since this was a quick project, I didn't worry about performance or blocking, and I ran into a few funny things with Lit that I didn't resolve.
-
-Also, note that the entire database is readable to the client, so I didn't worry about SQL injection or anything like that.
+The basic code for this to work is the following[^1][^2].
 
 
 ```javascript
@@ -209,7 +207,6 @@ initSqlJs(config)
     });
 ```
 
-[^1]: Since this was a quick project, I didn't worry about performance or blocking, and I ran into a few funny things with Lit that I didn't resolve.
 
 ## Using Lit
 
@@ -348,3 +345,6 @@ export class SearchElement extends LitElement {
 }
 customElements.define("search-element", SearchElement);
 ```
+
+[^1]: Since this was a quick project, I didn't worry about performance or blocking, and I ran into a few funny things with Lit that I didn't resolve.
+[^2] Note that the entire database is readable to the client, so I didn't worry about SQL injection or anything like that.
