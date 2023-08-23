@@ -2,7 +2,7 @@
 title: "Til How to Use Lit and sql-js"
 date: 2023-08-23T15:31:43-07:00
 draft: false
-tags: [frontend,html,lit,sqlite]
+tags: [til,frontend,html,lit,sqlite]
 ---
 
 Today I did a little project with lit and querying sqlite client-side. The idea was to search a sqlite database with full-text search and render the results in a table.
