@@ -241,14 +241,7 @@ The rest of the app contained the following:
 ### script.js
 
 ```javascript
-
-// https://lit.dev/docs/getting-started/#use-bundles
-
 import {LitElement, html, unsafeHTML } from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js'
-// import { LitElement, html } from "https://unpkg.com/lit?module";
-// import { unsafeHTML } from "https://unpkg.com/lit-html@1.0.0/lib/unsafe-html.js"
-// import {unsafeHTML} from 'lit-html/directives/unsafe-html.js';
-// https://unpkg.com/lit/directives/unsafe-html.js";
 
 export class SearchElement extends LitElement {
     static properties = {
