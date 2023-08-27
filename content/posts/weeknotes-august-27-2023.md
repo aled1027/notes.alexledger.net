@@ -1,13 +1,13 @@
 ---
-title: "Weeknotes: August 10 2023"
+title: "Weeknotes: August 27 2023"
 date: 2023-08-06T14:41:51-07:00
-draft: true
-tags: [weeknotes, llms]
+draft: false
+tags: [weeknotes, llms, python, presentations]
 ---
 
 ## Make Presentations in HTML
 
-I've been interested in HTML presentations of work whose main version isn't in HTML, like conference talks, videos, and the like.
+I've been interested in HTML presentations of work whose main version isn't HTML, like conference talks, videos, pdfs, audio recodings, and others.
 
 Simon Willison wrote up his approach for annotated presentations [here](https://simonwillison.net/2023/Aug/6/annotated-presentations/).
 
@@ -40,3 +40,6 @@ Resources
 ## What I'm Reading
 
 - https://www.actionablebooks.com/en-ca/ (e.g., [link](https://www.actionablebooks.com/en-ca/summaries/what-to-do-when-its-your-turn-and-its-always-your-turn/))
+- https://adamj.eu/tech/2021/05/11/python-type-hints-args-and-kwargs/
+- [Alex Russell's blog](https://infrequently.org/)
+- [Alyssa X's projects](https://www.alyssax.com/)
