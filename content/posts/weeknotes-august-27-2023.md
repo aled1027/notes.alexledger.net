@@ -1,6 +1,6 @@
 ---
 title: "Weeknotes: August 27 2023"
-date: 2023-08-27T14:41:51-07:00
+date: 2023-08-27T00:41:51-07:00
 draft: false
 tags: [weeknotes, llms, python, presentations]
 ---
