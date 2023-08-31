@@ -1,5 +1,5 @@
 ---
-title: "Doing a Group by On Datadog Logs"
+title: "Doing a Group By On Datadog Logs"
 date: 2023-08-31T08:41:25-07:00
 draft: false
 tags: [datadog, python, datasette, logs, monitoring]
