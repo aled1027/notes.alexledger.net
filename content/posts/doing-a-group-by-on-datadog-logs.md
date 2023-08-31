@@ -1,5 +1,5 @@
 ---
-title: "Doing a Group by With Datadog Logs"
+title: "Doing a Group by On Datadog Logs"
 date: 2023-08-31T08:41:25-07:00
 draft: false
 tags: [datadog, python, datasette, logs, monitoring]
@@ -8,7 +8,7 @@ tags: [datadog, python, datasette, logs, monitoring]
 I had some queries that were timing out, which meant that `request_started` was being logged by `request_finished` wasn't. As far as I can tell, datadog doesn't support group by or queries like this, so I exported the data to a CSV and queried it directly. 
 
 1. Go to datadog logs and add the query and time range. My query was `service:odyn-prod @event:request_*`.
-2. Click Download as CSV. I download about 60k rows and it took <90 seconds.
+2. Dump the logs: click Download as CSV. I download about 60k rows and it took <90 seconds.
 3. I wanted to use datasette, so I converted the csv into a sqlite database: `sqlite-utils insert data.db data data.csv --csv`
 4. I opened the database with datasette: `datasette data.db`
 5. I ran this query:
