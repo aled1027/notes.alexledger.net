@@ -45,11 +45,11 @@ A paper published October 5, 2018 on arXiv, presented at CESC 2018, in in collab
 
 ## Externally Verifiable Oblivious RAM
 
-"Externally Verifiable Oblivious RAM" is a published at Privacy Enhancing Technologies Symposium (PETS) in July 2017. This was advised by [Adam Groce](https://people.reed.edu/~agroce/index.html) and in collaboration with Josh Gancher. ([paper](https://eprint.iacr.org/2017/008.pdf))
+_Externally Verifiable Oblivious RAM_ is a paper published at the Privacy Enhancing Technologies Symposium (PETS) in July 2017. This was advised by [Adam Groce](https://people.reed.edu/~agroce/index.html) and in collaboration with Josh Gancher. ([paper](https://eprint.iacr.org/2017/008.pdf))
 
 
 ## CompGC: Efficient Offline/Online Semi-honest Two-party Computation,
 
-"CompGC: Efficient Offline/Online Semi-honest Two-party Computation," is a paper written in 2017, as part of my senior thesis at Reed, on novel technique for efficient two-party-computation.  This was a collaboration with [Adam Groce](https://people.reed.edu/~agroce/index.html) (my thesis advisor), Arkady Yerukhimovich and Alex Malozemoff. ([paper](https://eprint.iacr.org/2016/458.pdf), [code](https://github.com/aled1027/CompGC))
+_CompGC: Efficient Offline/Online Semi-honest Two-party Computation_, is a paper written in 2017, as part of my senior thesis at Reed, on a novel technique for efficient two-party-computation. This was a collaboration with [Adam Groce](https://people.reed.edu/~agroce/index.html) (my thesis advisor), Arkady Yerukhimovich and Alex Malozemoff. ([paper](https://eprint.iacr.org/2016/458.pdf), [code](https://github.com/aled1027/CompGC))
 
 
