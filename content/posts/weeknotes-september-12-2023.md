@@ -2,7 +2,7 @@
 title: "Weeknotes: September 12 2023"
 date: 2023-09-12T00:26:08-07:00
 draft: false
-tags: [weeknotes, personal-knowledge-management, datasette, software, memes]
+tags: [weeknotes, personal-knowledge-management, datasette, software, memes, websites]
 ---
 
 This newsletter includes links to things I've been reading and thinking about. Enjoy!
