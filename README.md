@@ -1,5 +1,26 @@
 # notes.alexledger.net
 
+## Search
+
+Search is supported with [pagefind](https://pagefind.app/).
+
+## Usage
+
+```bash
+# Serve the site locally
+hugo serve
+
+# Serve the site locally with drafts
+hugo serve -D
+
+# Build the site with search
+hugo
+npx -y pagefind --site public
+
+# Serve the site with search from the public dir
+npx -y serve public
+```
+
 ## Initial Setup
 
 

@@ -1,5 +1,5 @@
 [build]
-  command = "hugo"
+  command = "hugo && npx -y pagefind --site public"
   publish = "public"
 
 [build.environment]
