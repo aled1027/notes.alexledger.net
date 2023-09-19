@@ -64,6 +64,12 @@ pageRef = "Tags"
 url = "/tags/"
 weight = 40
 
+[[menu.main]]
+name = "Search"
+pageRef = "Search"
+url = "/search/"
+weight = 50
+
 [markup]
   [markup.highlight]
     # set markup.highlight.noClasses=false to enable code highlight
