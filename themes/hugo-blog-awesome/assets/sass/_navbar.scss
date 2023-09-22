@@ -97,6 +97,10 @@
         }
     }
 
+    .trigger-container {
+      width: 100%;
+    }
+
     .menu-trigger {
       display: none;
     }
@@ -113,9 +117,10 @@
 
         @include media-query($on-mobile) {
             display: block;
-            margin: 0;
             padding: 0;
             list-style: none;
+            margin-left: 1.2rem;
+            margin-right: 1.2rem;
         }
     }
 
@@ -136,7 +141,8 @@
       }
 
       @include media-query($on-mobile) {
-        opacity: 0.8;
+        opacity: 1;
+        padding: 0 0;
       }
     }
 
@@ -157,8 +163,7 @@
       border-bottom: 1px solid $light;
 
       a#mode {
-        left: 10px;
-        top: 12px;
+        margin-left: 1.2rem;
       }
 
       .menu-icon {
