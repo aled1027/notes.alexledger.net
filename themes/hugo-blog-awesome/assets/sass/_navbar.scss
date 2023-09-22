@@ -87,6 +87,14 @@
       float: right;
       display: flex;
       align-items: center;
+        @include media-query($on-mobile) {
+            background-color: white;
+            align-items: start;
+            margin-top: 51px;
+            // margin: 0;
+            // padding: 0;
+            // list-style: none;
+        }
     }
 
     .menu-trigger {
@@ -143,7 +151,7 @@
       left: 0;
       right: 0;
       z-index: 2;
-      text-align: center;
+      text-align: left;
       height: 50px;
       background-color: $white;
       border-bottom: 1px solid $light;
@@ -185,7 +193,7 @@
         animation: 0.2s ease-in forwards fadein;
         -webkit-animation: 0.2s ease-in forwards fadein;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         height: 100vh;
         width: 100%;
         top: 0;
