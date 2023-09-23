@@ -3,7 +3,7 @@ title: "Projects"
 date: 2023-08-15
 ---
 
-Welcome to the Projects page, where I've gathered some things I've been working on over the years. If you're interested in learning more about a project or collaborating, please feel free to reach out.
+Below is a list of the some of the projects I've worked on over the years. If you're interested in learning more about a project or collaborating, please reach out; I'd love to chat!
 
 ## The Hub
 
