@@ -1,5 +1,5 @@
 ---
-title: "Til How to Use Lit and sql-js"
+title: "TIL How to Use Lit and sql-js"
 date: 2023-08-23T15:31:43-07:00
 draft: false
 tags: [til,frontend,html,lit,sqlite]
