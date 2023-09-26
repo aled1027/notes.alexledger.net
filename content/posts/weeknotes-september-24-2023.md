@@ -2,7 +2,7 @@
 title: "Weeknotes: September 24 2023"
 date: 2023-09-24T00:00:00-07:00
 draft: false
-tags: [search, software, websites, wiki, garden, design]
+tags: [search, software, websites, wiki, digital-gardens, design]
 ---
 
 Each thing I'm reading and thinking about gets its own section this week.
