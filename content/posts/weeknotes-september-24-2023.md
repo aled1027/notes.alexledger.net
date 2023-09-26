@@ -15,7 +15,7 @@ I highly recommend reading this.
 
 ## SIFT
 
-I've been thinking about how to browser the internet effectively. Found a few more good resources on this
+I've been thinking about how to browser the internet effectively, and I found a few more good resources on this.
 
 - https://hapgood.us/2019/06/19/sift-the-four-moves/
 - https://webliteracy.pressbooks.com/
