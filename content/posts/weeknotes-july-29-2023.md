@@ -1,5 +1,5 @@
 ---
-title: "Weeknotes: July 29 2023"
+title: "Weeknotes: July 29, 2023"
 date: 2023-07-29
 draft: false
 tags: [weeknotes, climate-change, electric-vehicles, sustainability, frontend]

@@ -2,7 +2,7 @@
 title: "TIL How to Add a Custom Page to Hugo"
 date: 2023-08-15T12:56:16-07:00
 draft: false
-tags: [hugo, website]
+tags: [hugo, websites]
 ---
 
 ## Making the Page
