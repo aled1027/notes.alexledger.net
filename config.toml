@@ -59,16 +59,22 @@ weight = 30
 
 
 [[menu.main]]
-name = "Tags"
-pageRef = "Tags"
-url = "/tags/"
+name = "Spotlight"
+pageref = "Spotlight"
+url = "/resources/spotlight/"
 weight = 40
+
+[[menu.main]]
+name = "Tags"
+pageref = "Tags"
+url = "/tags/"
+weight = 50
 
 [[menu.main]]
 name = "Search"
 pageRef = "Search"
 url = "/search/"
-weight = 50
+weight = 60
 
 [markup]
   [markup.highlight]

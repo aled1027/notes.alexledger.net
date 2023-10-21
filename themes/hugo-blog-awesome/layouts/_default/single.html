@@ -4,11 +4,15 @@
         <article>
             <header class="header">
                 <h1 class="header-title">{{ .Title }}</h1>
-                {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
-                <div class="post-meta">
-                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
-                </div>
+                {{ if .Date }}
+                    {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
+                    <div class="post-meta">
+                        <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
+                    </div>
+                {{ end }}
             </header>
+
+
 
             <!-- The per-post toc setting overrides the site setting -->
             <!-- Check if the toc length is greater than 32 - 32 is the length of an empty toc -->
