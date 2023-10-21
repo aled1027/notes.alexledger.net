@@ -1,7 +1,6 @@
 ---
 title: "Spotlight"
-# date: 2023-08-15
-draft: true
+draft: false
 ---
 
 These are awesome folks and organizations whose work I love. I highly encourage checking them out and supporting them.
@@ -12,6 +11,8 @@ These are awesome folks and organizations whose work I love. I highly encourage 
 - {{< extlink "https://www.etsy.com/shop/TallGrassPottery" "Anna Jones Hughes & Tall Grass Pottery" >}} (pottery)
 - {{< extlink "https://anna-neshyba.squarespace.com/" "Anna Neshyba" >}} (visual art)
 - {{< extlink "https://catnesh.net/" "Cat Neshyba" >}} (writing)
+- {{< extlink "https://www.instagram.com/playmotableaux/" "Linda Drake - Playmobil meets great works of art" >}} (visual art)
+
 
 <!-- 
 
@@ -28,7 +29,11 @@ To add:
 
 ## About Spotlight
 
-Inspired by:
+This page, Spotlight, includes lists of folks and organizations whose work that I love. I decided to make this page to help boost their profiles, offering another spot where they might be found in the world.
+
+I'd love to hear from you, reader, about who you think is doing cool work in the world. Consider adding a page like this to your site, and if you don't yet have a site, I encourage that first! (If you're not sure where to start, please free to reach out to me - you find my contact info [here](/resources/contact).)
+
+This page had a number of inspirations, including, but not limited to:
 
 - Xe's {{< extlink "https://xeiaso.net/signalboost/" "Signal Boosts" >}}
 - Tracy Durnell's {{< extlink "https://tracydurnell.com/blogroll/" "Blogroll" >}}, 
