@@ -8,8 +8,9 @@ These are awesome folks and organizations whose work I love. I highly encourage 
 
 ## Artists
 
-- {{< extlink "https://www.etsy.com/shop/TallGrassPottery" "Anna Jones Hughes & Tall Grass Pottery" >}} (pottery)
+- {{< extlink "https://www.etsy.com/shop/TallGrassPottery" "Anna Jones Hughes - Tall Grass Pottery" >}} (pottery)
 - {{< extlink "https://anna-neshyba.squarespace.com/" "Anna Neshyba" >}} (visual art)
+- {{< extlink "https://vmoartist.com/" "Vicktoria Mosijchuk" >}} (visual art)
 - {{< extlink "https://catnesh.net/" "Cat Neshyba" >}} (writing)
 - {{< extlink "https://www.instagram.com/playmotableaux/" "Linda Drake - Playmobil meets great works of art" >}} (visual art)
 
@@ -25,13 +26,15 @@ To add:
 ## Businesses
 
 - {{< extlink "https://www.peoples.coop/" "People's Food Coop" >}}
+- {{< extlink "https://curiospice.com/" "Curio Spice" >}}
+- {{< extlink "https://tazachocolate.com/" "Taza Chocolate" >}}
 - {{< extlink "http://expatriatepdx.com/" "Expatriate" >}}
 
 ## About Spotlight
 
-This page, Spotlight, includes lists of folks and organizations whose work that I love. I decided to make this page to help boost their profiles, offering another spot where they might be found in the world.
+This page, Spotlight, includes lists of folks and organizations whose work I love. I made this page to help boost their profiles, offering another spot where they might be found in the world.
 
-I'd love to hear from you, reader, about who you think is doing cool work in the world. Consider adding a page like this to your site, and if you don't yet have a site, I encourage that first! (If you're not sure where to start, please free to reach out to me - you find my contact info [here](/resources/contact).)
+I'd love to hear from you, reader, about who you think is doing cool work. Consider adding a page like this to your site, and if you don't yet have a site, I encourage that first! (If you're not sure where to start, please free to reach out to me - you find my contact info [here](/resources/contact).)
 
 This page had a number of inspirations, including, but not limited to:
 
