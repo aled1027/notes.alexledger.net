@@ -16,9 +16,7 @@ These are awesome folks and organizations whose work I love. I highly encourage 
 
 
 <!-- 
-
 To add:
-
 - Cat's mom's playmobile instagram
 - Victoria and her website
 -->
@@ -29,12 +27,13 @@ To add:
 - {{< extlink "https://curiospice.com/" "Curio Spice" >}}
 - {{< extlink "https://tazachocolate.com/" "Taza Chocolate" >}}
 - {{< extlink "http://expatriatepdx.com/" "Expatriate" >}}
+- {{< extlink "https://www.wajanpdx.com/" "Wajan" >}}
 
 ## About Spotlight
 
 This page, Spotlight, includes lists of folks and organizations whose work I love. I made this page to help boost their profiles, offering another spot where they might be found in the world.
 
-I'd love to hear from you, reader, about who you think is doing cool work. Consider adding a page like this to your site, and if you don't yet have a site, I encourage that first! (If you're not sure where to start, please free to reach out to me - you find my contact info [here](/resources/contact).)
+I'd love to hear from you, reader, about who you think is doing cool work. Consider adding a page like this to your site, and if you don't yet have a site, I encourage that first! (If you're not sure where to start, please free to reach out to me - you can find my contact info [here](/resources/contact).)
 
 This page had a number of inspirations, including, but not limited to:
 
