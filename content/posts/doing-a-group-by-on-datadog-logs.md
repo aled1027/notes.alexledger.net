@@ -5,7 +5,7 @@ draft: false
 tags: [datadog, python, datasette, logs, monitoring]
 ---
 
-I had some queries that were timing out, which meant that `request_started` was being logged by `request_finished` wasn't. As far as I can tell, datadog doesn't support group by or queries like this, so I exported the data to a CSV and queried it directly. 
+I had some queries that were timing out in a web app, which were identified by a log pattern where a log 'request_started` was logged but a log with `request_finished` wasn't. I wanted to finf queries that matched that pattern and as far as I could tell, datadog didn't support an aggregate query like this. So I exported the data to a CSV and queried it directly. 
 
 1. Go to datadog logs and add the query and time range. My query was `service:odyn-prod @event:request_*`.
 2. Dump the logs: click Download as CSV. I download about 60k rows and it took <90 seconds.
