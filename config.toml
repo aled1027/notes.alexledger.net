@@ -1,6 +1,9 @@
 baseurl = "https://www.alexledger.net/"
 title = "Alex's Notes and Blog"
+
 theme = "hugo-blog-awesome"
+# theme = "alexledger"
+
 LanguageCode = "en"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
