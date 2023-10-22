@@ -22,9 +22,9 @@ Given a link to a JSON file of links and labels, [The Hub](https://github.com/al
 
 This site, https://alexledger.net, is built with Hugo with some custom theming on top of [Hugo blog awesome](https://github.com/hugo-sid/hugo-blog-awesome). ([code](https://github.com/aled1027/notes.alexledger.net), [site](https://alexledger.net))
 
-## Cat's Site
+## catnesh.net
 
-https://catnesh.net, the site of my partner, Cat, is a Hugo site that uses the CSS from [pandoc](https://pandoc.org/) as basis of the theme. The site prioritizes accessibility as well as showing off Cat's work. ([site](https://catnesh.net))
+https://catnesh.net, the site of my partner, Cat, is a Hugo site that uses the CSS from [pandoc](https://pandoc.org/) as the basis of the theme. The site prioritizes accessibility as well as showing off Cat's work. ([site](https://catnesh.net))
 
 ## Blondel Communities
 
