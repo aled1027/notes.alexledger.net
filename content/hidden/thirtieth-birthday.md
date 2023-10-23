@@ -20,8 +20,8 @@ We're doing a fall themed potluck - pumpkins, squash, cabbage, leaves, falling l
 <div style="text-align: center">
     <img
         src="/fall-peanuts.gif"
-        alt="foo"
+        alt="Leaf falling gif"
         decoding="async"
-        style="width: 320px;">
+        style="width: 320px;"
     />
 </div>
