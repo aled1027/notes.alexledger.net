@@ -1,0 +1,12 @@
+{{- define "main" -}}
+<div class="wrapper list-page" data-pagefind-ignore="all">
+    <header class="header">
+        <h1 class="header-title center">{{ .Title }}</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+        {{- partial "toc.html" . -}}
+        {{ .Content }}
+        Nothing to see here.
+    </main>
+</div>
+{{- end -}}
