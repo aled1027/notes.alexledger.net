@@ -2,7 +2,7 @@
 title: "Portland-area Fermentation"
 date: 2023-11-25T08:56:38-08:00
 draft: false
-tags: [fermentation]
+tags: [fermentation, portland]
 ---
 
 The [Portland Fermentation Festival](http://www.portlandfermentationfestival.com/) in October showed off the great fermentation companies that we have in the area.
