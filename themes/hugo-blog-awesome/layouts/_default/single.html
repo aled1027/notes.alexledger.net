@@ -4,13 +4,21 @@
         <article>
             <header class="header">
                 <h1 class="header-title">{{ .Title }}</h1>
+                <div class="post-meta">
                 {{ if .Date }}
                     {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
-                    <div class="post-meta">
-                        <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
-                    </div>
+                    <span>Date: </span><time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
                 {{ end }}
-            </header>
+                <div>
+                <span>Tags: </span>
+                {{ $numEntries := sub (len (.GetTerms "tags" )) 1 }}
+                {{ range $i, $t := (.GetTerms "tags") }}
+                     <a style="color: rgb(107, 120, 134); text-decoration: underline;" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                    {{if ne $i $numEntries}}{{end}}
+                {{ end }}
+                </div>
+            </div>
+        </header>
 
 
 
